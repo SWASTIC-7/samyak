@@ -1,0 +1,33 @@
+.Stat {
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    margin: 20px 0px;
+    .bg {
+        position: absolute;
+        width: 100%;
+        /* height: 30dvh; */
+    }
+}
+.Flexer {
+    display: flex;
+    width: 100%;
+    /* height: 30dvh; */
+    position: absolute;
+
+    justify-content: space-around;
+    align-items: center;
+    .Circle {
+        width: 6vw;
+        height: 6vw;
+        border-radius: 50%;
+        background-color: white;
+       
+    }
+}
+.icons {
+            height: 4vw;
+            position: relative;
+            top: 1vw;
+            left: 1vw;
+}

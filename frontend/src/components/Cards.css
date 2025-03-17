@@ -1,0 +1,293 @@
+.Achivers_card {
+    background-color: #0E2A46;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    width: 20vw;
+
+    .Img {
+        width: 100%;
+        img {
+            object-fit: cover;
+            width: 100%;
+            border: none;
+        }
+    }
+    .content  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+        transform: translateY(-2dvh);
+        div {
+            width: 3vw;
+            height: 3vw;
+            background-color: #FE543D;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: white;
+                margin: 10px;
+        }
+        h3{
+            font-family: "Poppins", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                color: #FE543D;
+                padding: 0;
+                margin: 10px;
+        }
+    }
+}
+
+
+
+
+.Outer_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    min-width: 300px;
+    padding: 1.5vw;
+    .quotes{
+        position: absolute;
+        top: 0;left: 0;
+        width: 3vw;
+        height: 3vw;
+        padding: 0;
+        margin: 0;
+    }
+    .box {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        p{
+            font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            line-height: 30px;
+        }
+        h4{
+            font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        h3 {
+            font-family: "Epilogue", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+    }
+}
+
+
+
+
+
+
+.card-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #112240;
+    /* padding: 20px; */
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    position: relative;
+  }
+  .pattern {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+  }
+  .card-content {
+    max-width: 50%;
+    position: absolute;
+    top: 0;
+    padding: 50px 20px;
+  }
+  
+  .course-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: #4ade80;
+    font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+  }
+  
+  .course-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Epilogue", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.2vw
+  }
+  
+  .course-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    opacity: 0.9;
+    justify-content: space-between;
+    font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+
+  }
+  
+  .course-features p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .join-button2 {
+    background-color: #674DF0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+  }
+  
+  .join-button2:hover {
+    background-color: #674DF0;
+  }
+  
+  .card-image {
+    max-width: 50%;
+  }
+  
+  .mentor-image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #704FE6;
+    /* padding: 20px; */
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    position: relative;
+  }
+ 
+
+  
+  .join-button {
+    background-color: #2FC7A1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+  }
+  
+  .join-button:hover {
+    background-color: #269e80;
+  }
+  
+
+
+
+.mentor-card {
+  width: 20vw;
+  height: 20vw;
+
+  position: relative;
+}
+.mentor-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid #704FE6;
+}
+.share-icon{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #704FE6;
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+
+  }
+}
+.mentor-info{
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  left: 5%;
+  background-color: white;
+  border-radius: 5px;
+}
+.mentor-name{
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding: 0px 20px;
+  
+  margin: 8px;
+}
+.mentor-title {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.8rem;
+  padding : 0px 20px;
+  margin: 8px;
+  color: #704FE6
+}

@@ -1,0 +1,153 @@
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* max-width: 1000px; */
+    margin: auto;
+    width: 80%;
+  }
+  
+  /* Logo and Tagline */
+  .footer-logo {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .logo {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  /* Contact Section */
+  .footer-contact {
+    text-align: center;
+    flex: 1;
+    p{
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+  }
+  
+  .footer-contact h3 {
+    margin-bottom: 10px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .email-subscribe {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .email-subscribe input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .email-subscribe button {
+    background-color: #704FE6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Social Links */
+  .footer-links {
+    text-align: right;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links h3 {
+    margin-bottom: 10px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .social-link {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #704FE6;
+    transform: scale(1.2);
+  }
+  
+  /* Auth Buttons */
+  .auth-buttons {
+    margin-top: 15px;
+  }
+  
+  .signup-btn,
+  .login-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .signup-btn {
+    background-color: #704FE6;
+  }
+  
+  .signup-btn:hover,
+  .login-btn:hover {
+    background-color: #555;
+  }
+  .copyright {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.685);
+    margin-top: 50px;
+    text-align: center;
+  }

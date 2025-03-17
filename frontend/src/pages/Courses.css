@@ -1,0 +1,22 @@
+.Courses {
+    position: relative;
+    width: 100vw;
+    h1 {
+        text-align: center;
+        font-size: 3vw;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            
+    }
+
+}
+.card_container {
+    position: relative;
+    display: flex;
+    width: 90vw;
+    left: 5vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}

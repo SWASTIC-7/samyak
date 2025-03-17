@@ -1,0 +1,97 @@
+.Mentors {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  height: auto;
+  /* height: 150dvh; */
+
+}
+
+
+.mentors-container {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 20dvh;
+  }
+  
+  .mentors-label {
+    background-color: #e6e0ff;
+    color: #6c5ce7;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .mentors-title {
+    font-size: 28px;
+    color: #1e1e2d;
+    margin: 10px 0;
+    font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vw;
+  }
+  
+  .mentors-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .mentors-buttons {
+    display: flex;
+    gap: 10px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .contact-button, .find-courses-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .contact-button {
+    background-color: #7b4bff;
+    color: white;
+  }
+  
+  .find-courses-button {
+    background-color: #1e1e2d;
+    color: white;
+  }
+
+.Mentees{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: auto;
+  top: 20dvh;
+  /* justify-content: space-around; */
+  gap: 30px;
+  margin: 10dvh;
+
+}

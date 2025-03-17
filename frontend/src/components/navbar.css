@@ -1,0 +1,44 @@
+.Navbar {
+    position: absolute;
+    width: 90vw;
+    height: 50px;
+    left: 5vw;
+    margin: 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    .logo {
+        height: 30px;
+        position: relative;
+        top: 1dvh;
+    }
+    ul {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0;
+        padding: 1dvh;
+        font-family: "Rethink Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    button {
+        width: 7vw;
+        border-radius: 10px;
+        border: none;
+        background-color: #704FE6;
+        color: white;
+         font-family: "Rethink Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+
+}
