@@ -7,14 +7,16 @@ const courses_card = () => {
   return (
     <div className="card-container">
         <img className="pattern" src="pattern.svg"></img>
+
       <div className="card-content">
         <p className="course-label">📚 POPULAR COURSES</p>
         <h2 className="course-title">Dropper JEE Advanced <br /> Mentorship Programme</h2>
+
         <div className="course-features">
-          <p><FaClock /> 3/6 Months</p>
-          <p><FaBook /> Short Notes</p>
-          <p><FaUser /> 1 To 1 Mentorship</p>
-          <p><FaWhatsapp /> 24x7 Whatsapp Support</p>
+          <div><FaClock /> 3/6 Months</div>
+          <div><FaBook /> Short Notes</div>
+          <div><FaUser /> 1 To 1 Mentorship</div>
+          <div><FaWhatsapp /> 24x7 Whatsapp Support</div>
         </div>
         <button className="join-button">JOIN WITH US</button>
       </div>

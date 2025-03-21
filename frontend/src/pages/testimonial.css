@@ -1,25 +1,36 @@
-.Testimonial{
+.Testimonial {
     position: relative;
+    padding-bottom: 40vh;
     width: 100vw;
-    margin-top: 20dvh ;
-    height: 100dvh;
+    margin-top: 20dvh;
+    height: 60vh;
+
     .bg2 {
         position: absolute;
         width: 100%;
+        height: 100%;
     }
+
     .heading {
         position: absolute;
         z-index: 2;
-        top: 10dvh;
-        left: 30%;
-        width: 40%;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 60px;
+        /* top: 10dvh;
+        left: 30%; */
+        /* width: 40%; */
+        /* margin: auto; */
+        left: 0;
+        right: 0;
+
         h1 {
             text-align: center;
             font-size: 3vw;
             font-family: "Poppins", sans-serif;
-                font-weight: 700;
-                font-style: normal;
- 
+            font-weight: 700;
+            font-style: normal;
+
         }
     }
 }
@@ -29,8 +40,50 @@
     position: absolute;
     top: 40dvh;
     width: 90vw;
-    left: 5vw;
-    height: 40dvh;
+    left: 8vw;
+    /* height: 40dvh; */
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+}
+
+.corousel::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width:1250px) {
+
+    .Testimonial {
+        margin-top: 60px;
+
+        .heading {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .Testimonial {
+        margin-top: 80px;
+        padding-bottom: 20vh;
+
+        .heading {
+            margin-top: 30px;
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .corousel{
+        /* position: absolute; */
+        top:25dvh ;
+    }
+
+
 }

@@ -7,7 +7,7 @@ function Achivers_card() {
             <img src="girl.png"></img>
         </div>
         <div className='content'>
-            <div><img src="Share.svg"></img></div>
+            <div><img width={30} height={30} src="Share.svg"></img></div>
             <h2>ALINA JOSHI</h2>
             <h3>AIR-27(JEE Adv)</h3>
         </div>

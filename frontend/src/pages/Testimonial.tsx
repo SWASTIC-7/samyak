@@ -5,15 +5,17 @@ function Testimonial() {
   return (
     <div className='Testimonial'>
       <img className='bg2' src='Background.png'></img>
+
       <div className='heading'>
-      <h1>Creating A Community Of Life Long Learners</h1>
-       </div>
-       <div className='corousel'>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-       </div>
+        <h1>Creating A Community Of Life Long Learners</h1>
+      </div>
+      
+      <div className='corousel'>
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+      </div>
     </div>
   )
 }

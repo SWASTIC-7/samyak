@@ -1,95 +1,111 @@
 .Achivers_card {
-    background-color: #0E2A46;
-    border-radius: 5px;
-    padding: 0;
-    margin: 0;
-    width: 20vw;
+  background-color: #0E2A46;
+  /* border-radius: 30px; */
+  padding: 0;
+  margin: 0;
+  width:250px;
+  /* height: 100px; */
 
-    .Img {
-        width: 100%;
-        img {
-            object-fit: cover;
-            width: 100%;
-            border: none;
-        }
+  .Img {
+    width: 100%;
+    height: 290px !important;
+    object-fit: cover;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      /* border: none; */
+      /* border-radius: 30px; */
     }
-    .content  {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        text-align: center;
-        transform: translateY(-2dvh);
-        div {
-            width: 3vw;
-            height: 3vw;
-            background-color: #FE543D;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        h2{
-            font-family: "Poppins", sans-serif;
-                font-weight: 700;
-                font-style: normal;
-                color: white;
-                margin: 10px;
-        }
-        h3{
-            font-family: "Poppins", sans-serif;
-                font-weight: 300;
-                font-style: normal;
-                color: #FE543D;
-                padding: 0;
-                margin: 10px;
-        }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    transform: translateY(-2dvh);
+
+    div {
+      width: 40px;
+      height: 40px ;
+      background-color: #FE543D;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
     }
+
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color: white;
+      margin: 10px;
+    }
+
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: #FE543D;
+      padding: 0;
+      /* margin-bottom: 10px; */
+    }
+  }
 }
 
 
 
 
 .Outer_container {
-    position: relative;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  min-width: 300px;
+  padding: 1.5vw;
+
+  .quotes {
+    position: absolute;
     top: 0;
     left: 0;
-    width: 20vw;
-    min-width: 300px;
-    padding: 1.5vw;
-    .quotes{
-        position: absolute;
-        top: 0;left: 0;
-        width: 3vw;
-        height: 3vw;
-        padding: 0;
-        margin: 0;
+    width: 3vw;
+    height: 3vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .box {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+
+    p {
+      font-family: "Sora", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 30px;
     }
-    .box {
-        border: 1px solid black;
-        border-radius: 20px;
-        padding: 10px;
-        p{
-            font-family: "Sora", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-            line-height: 30px;
-        }
-        h4{
-            font-family: "Sora", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-        }
-        h3 {
-            font-family: "Epilogue", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 700;
-            font-style: normal;
-        }
+
+    h4 {
+      font-family: "Sora", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
     }
+
+    h3 {
+      font-family: "Epilogue", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+  }
 }
 
 
@@ -98,196 +114,290 @@
 
 
 .card-container2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #112240;
-    /* padding: 20px; */
-    border-radius: 10px;
-    color: white;
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-    position: relative;
-  }
-  .pattern {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #112240;
+  /* padding: 20px; */
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  position: relative;
+}
 
-  }
-  .card-content {
-    max-width: 50%;
-    position: absolute;
-    top: 0;
-    padding: 50px 20px;
-  }
-  
-  .course-label {
-    font-size: 14px;
-    text-transform: uppercase;
-    opacity: 0.8;
-    color: #4ade80;
-    font-family: "Sora", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-  }
-  
-  .course-title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-family: "Epilogue", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 700;
-            font-style: normal;
-            font-size: 1.2vw
-  }
-  
-  .course-features {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    font-size: 14px;
-    opacity: 0.9;
-    justify-content: space-between;
-    font-family: "Sora", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
+.pattern {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 
-  }
-  
-  .course-features p {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .join-button2 {
-    background-color: #674DF0;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-family: "Sora", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-  }
-  
-  .join-button2:hover {
-    background-color: #674DF0;
-  }
-  
-  .card-image {
-    max-width: 50%;
-  }
-  
-  .mentor-image {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-  }
+}
 
-  .card-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #704FE6;
-    /* padding: 20px; */
-    border-radius: 10px;
-    color: white;
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-    position: relative;
-  }
- 
+.card-content {
+  max-width: 50%;
+  position: absolute;
+  top: 0;
+  padding: 50px 20px;
+}
 
-  
-  .join-button {
-    background-color: #2FC7A1;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-family: "Sora", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-  }
-  
-  .join-button:hover {
-    background-color: #269e80;
-  }
-  
+.course-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  color: #4ade80;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.course-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2vw
+}
+
+.course-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 14px;
+  opacity: 0.9;
+  justify-content: space-between;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.course-features p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.join-button2 {
+  background-color: #674DF0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 40px;
+}
+
+.join-button2:hover {
+  /* background-color: #674DF0; */
+  opacity: 0.8;
+}
+
+.card-image img {
+  max-width: 50%;
+}
+
+.mentor-image {
+  width: 100%;
+  max-width: 350px;
+  /* border-radius: 10px; */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #704FE6;
+  /* padding: 20px; */
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  position: relative;
+}
+
+
+
+.join-button {
+  background-color: #2FC7A1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  /* bottom: 10px; */
+  margin-top: 40px;
+}
+
+.join-button:hover {
+  background-color: #269e80;
+}
+
 
 
 
 .mentor-card {
-  width: 20vw;
-  height: 20vw;
-
+  width: 250px;
+  height: 250px;
+  /* border-radius: 15px; */
   position: relative;
 }
+
+
 .mentor-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* border-radius: 15px; */
   border: 4px solid #704FE6;
 }
-.share-icon{
+
+.share-icon {
   position: absolute;
   top: 20px;
   right: 20px;
   background-color: #704FE6;
   border-radius: 50%;
-  width: 2vw;
-  height: 2vw;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
+  cursor: pointer;
 
-  }
+  /* img {} */
 }
-.mentor-info{
+
+
+.mentor-info {
   position: absolute;
-  bottom: 20px;
-  width: 90%;
+  bottom: 10px;
+  max-width: 240px;
+  min-height: 60px;
   left: 5%;
   background-color: white;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
 }
-.mentor-name{
+
+.circlebg{
+  width: 30px;
+  height: 30px;
+  background-color:#e6e0ff;
+  border-radius: 100px;
+  padding: 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  /* margin-left: 85%; */
+  /* margin-bottom: 10px; */
+  
+}
+.circlebg img{
+  margin-left: 3px;
+  margin-top: 5px;
+}
+.mentor-name {
   font-family: "Epilogue", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   padding: 0px 20px;
-  
+
   margin: 8px;
 }
+
 .mentor-title {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-size: 0.8rem;
-  padding : 0px 20px;
+  padding: 0px 20px;
   margin: 8px;
   color: #704FE6
+}
+
+@media (max-width:800px) {
+
+  .Achivers_card{
+    min-width: 250px !important;
+    /* min-height: 300px; */
+
+    .content{
+        h2{margin: 0;}
+        h3{margin: 0;}
+    }
+  }
+}
+@media (max-width:700px) {
+
+  .card-content{
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+  .join-button,.join-button2{
+    width: 120px;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 5px ;
+  }
+  .course-features{
+    gap: 10px;
+    /* font-size: 10px; */
+  }
+
+}
+@media (max-width:1200px){
+  .mentor-card{
+    min-width: 250px !important;
+    min-height: 250px !important;
+  }
+  .card-content{
+    h2{
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width:500px){
+
+  .card-content{
+    h2{
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+
+}
+@media (max-width:450px){
+
+.pattern{
+  height: 280px;
+}
+
 }

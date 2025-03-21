@@ -4,17 +4,20 @@ import './Achivers.css'
 function Achivers() {
   return (
     <div className='Achivers'>
-      <div className='Back'>
-        <h1>Meet Our Achievers</h1>
-      </div>
-      <div className='Cards'>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
 
+      <h1>Meet Our Achievers</h1>
+
+
+      <div className='Cards'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
+
     </div>
+
+
   )
 }
 

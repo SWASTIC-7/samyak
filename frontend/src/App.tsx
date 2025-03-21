@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import Home from './pages/Home'
 import Stat from './pages/Stats'
@@ -8,7 +8,7 @@ import Mentors from './pages/Mentors'
 import Courses from './pages/Courses'
 import Footer from './pages/Footer'
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     

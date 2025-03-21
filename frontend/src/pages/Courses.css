@@ -2,11 +2,12 @@
     position: relative;
     width: 100vw;
     h1 {
-        text-align: center;
+        text-align:left;
         font-size: 3vw;
             font-family: "Poppins", sans-serif;
             font-weight: 700;
             font-style: normal;
+            margin-left: 120px;
             
     }
 
@@ -14,9 +15,41 @@
 .card_container {
     position: relative;
     display: flex;
-    width: 90vw;
+    width: 94vw;
     left: 5vw;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    padding-right: 30px;
+}
+
+@media (max-width:1531px){
+    .Courses{
+        h1{
+            text-align: center;
+            margin: auto;
+        }
+    }
+}
+
+@media (max-width:1000px){
+
+    .Courses{
+        h1{
+            font-size: 30px;
+        }
+    }
+
+}
+@media (max-width:500px){
+    .card_container{
+        margin: auto;
+    }
+
+    .Courses{
+        h1{
+            font-size: 22px;
+        }
+    }
+
 }

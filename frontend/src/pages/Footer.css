@@ -1,17 +1,21 @@
 .footer {
     background-color: #000;
     color: white;
-    padding: 40px 20px;
+    padding: 40px;
     text-align: center;
     position: relative;
     bottom: 0;
+    height: full;
+    width:full;
   }
   
   .footer-container {
     display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* align-items: center; */
+    gap: 50px;
+    align-items: center;
     /* max-width: 1000px; */
     margin: auto;
     width: 80%;
@@ -21,16 +25,19 @@
   .footer-logo {
     text-align: left;
     flex: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20vw;
   }
   
   .logo {
-    width: 300px;
+    width: 250px;
     margin-bottom: 10px;
   }
   
   .tagline {
-    font-size: 14px;
-    color: #bbb;
+    font-size: 15px !important;
+    color: #bbb !important;
+    font-weight: 100 !important;
   }
   
   /* Contact Section */
@@ -86,6 +93,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-links h3 {
@@ -122,6 +131,7 @@
   .signup-btn,
   .login-btn {
     background-color: #333;
+    width: 150px;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -148,6 +158,21 @@
     font-weight: 300;
     font-style: normal;
     color: rgba(255, 255, 255, 0.685);
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
+    margin-top:auto;
+
+    /* position: fixed; */
+    /* bottom: 30px;
+    left: 0;
+    right: 0; */
+    margin-top: 19vh;
+    
+  
+  }
+  @media (max-width:1200px){
+
+    .footer-container{
+      gap: 10vw !important;
+    }
   }
