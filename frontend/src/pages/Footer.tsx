@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 import { FaDiscord, FaTwitter, FaReddit, FaYoutube } from "react-icons/fa";
 
