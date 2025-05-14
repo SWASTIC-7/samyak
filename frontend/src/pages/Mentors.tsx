@@ -1,4 +1,3 @@
-import React from "react";
 import "./Mentors.css";
 import { FaArrowRight } from "react-icons/fa";
 import Cards from '../components/mentor_card'

@@ -1,4 +1,3 @@
-import React from 'react'
 import './testimonial.css'
 import Cards from '../components/testi_card'
 function Testimonial() {

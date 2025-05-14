@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../components/navbar'
 import Landing from '../components/landing'
 import './Home.css'

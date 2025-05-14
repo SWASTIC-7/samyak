@@ -1,4 +1,3 @@
-import React from "react";
 import "./Cards.css"; // Import the CSS file
 import womanImage from "/girl2.png"; // Replace with your actual image path
 import { FaClock, FaBook, FaUser, FaWhatsapp } from "react-icons/fa";

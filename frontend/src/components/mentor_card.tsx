@@ -1,8 +1,10 @@
-import React from "react";
 import "./Cards.css";
-import { FaShareAlt } from "react-icons/fa";
-
-const mentor_card = ({ name, title, image }) => {
+type MentorCardProps = {
+  name: string;
+  title: string;
+  image: string;
+};
+const mentor_card = ({ name, title, image }: MentorCardProps) => {
   return (
     <div className="mentor-card">
       <img src={image} alt={name} className="mentor-img" />

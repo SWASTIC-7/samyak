@@ -1,4 +1,3 @@
-import React from 'react'
 import './Courses.css'
 import Card from '../components/courses_card'
 import Card2 from '../components/courses_card2'

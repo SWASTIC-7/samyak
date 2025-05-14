@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from '../components/Achivers_card'
 import './Achivers.css'
 function Achivers() {
