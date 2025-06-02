@@ -1,5 +1,4 @@
 import "./Cards.css";
-import { FaClock, FaBook, FaUser, FaWhatsapp } from "react-icons/fa";
 
 interface CourseFeature {
   icon: React.ReactNode;

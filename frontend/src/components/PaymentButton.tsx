@@ -27,7 +27,16 @@ const PaymentButton: React.FC<PaymentButtonProps> = ({ courseId, courseName, amo
         // Handle successful payment
         console.log('Payment successful:', response);
         // Store the purchase in Firebase
-        // You can add the purchase record to Firestore here
+        const purchaseData = {
+          courseId,
+          courseName,
+          amount,
+          userId: user.uid,
+          paymentId: response.razorpay_payment_id,
+          timestamp: new Date().toISOString()
+        };
+        console.log('Purchase data:', purchaseData);
+        // TODO: Add to Firestore
       },
       prefill: {
         name: user.displayName,
