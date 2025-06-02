@@ -1,5 +1,4 @@
 import React from 'react';
-import { useAuth } from '../context/AuthContext';
 import './SignInCheckModal.css';
 
 interface SignInCheckModalProps {
@@ -8,7 +7,7 @@ interface SignInCheckModalProps {
   onSignIn: () => void;
 }
 
-const SignInCheckModal: React.FC<SignInCheckModalProps> = ({ isOpen, onClose, onSignIn }) => {
+const SignInCheckModal: React.FC<SignInCheckModalProps> = ({ isOpen, onClose}) => {
   if (!isOpen) return null;
 
   return (
