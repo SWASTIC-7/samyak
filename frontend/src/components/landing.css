@@ -26,7 +26,10 @@
 
 .land-text {
     width: 40vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     font-size: 20px;
 }
 
@@ -101,7 +104,7 @@
     .land-left {
         display: flex !important;
         flex-direction: column;
-        width: 100% !important;
+        width: 100dvw !important;
         /* margin: auto; */
     }
 

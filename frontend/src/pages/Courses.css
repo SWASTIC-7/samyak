@@ -1,6 +1,7 @@
 .Courses {
     position: relative;
     width: 100vw;
+    margin: 0;
     h1 {
         text-align:left;
         font-size: 3vw;

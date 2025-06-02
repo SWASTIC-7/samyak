@@ -1,0 +1,79 @@
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile-menu {
+  width: 80%;
+  max-width: 300px;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  padding: 5px;
+}
+
+.mobile-menu-items {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobile-menu-item {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-menu-item:hover {
+  color: #704FE6;
+}
+
+.mobile-signin-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #704FE6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.mobile-signin-button:hover {
+  background-color: #5a3fd1;
+} 
