@@ -28,27 +28,6 @@ function Courses() {
     { icon: <FaWhatsapp />, text: '24x7 Whatsapp Support' }
   ];  
 
-  const handleJoinClick1 = () => {
-    // Handle join button click
-    window.location.href = "https://chat.whatsapp.com/KH08ER8BvlTHo3DB51plbs";
-    console.log('Join button clicked');
-  };
-  const handleJoinClick2 = () => {
-    // Handle join button click
-    window.location.href = "https://chat.whatsapp.com/JiOuZn5mvXQ0g1PLpiLPE7";
-    console.log('Join button clicked');
-  };
-  const handleJoinClick3 = () => {
-    // Handle join button click
-    window.location.href = "https://chat.whatsapp.com/GOVVlAx7pVI5MYzhx3Dc07";
-    console.log('Join button clicked');
-  };
-  const handleJoinClick4 = () => {
-    // Handle join button click
-    window.location.href = "https://chat.whatsapp.com/CgTl95Wx8rXELPhUkoExty";
-    console.log('Join button clicked');
-  };
-
   return (
     <div id="courses" className='Courses'>
       <div>
@@ -66,7 +45,7 @@ function Courses() {
           features={courseFeatures1}
           imageSrc="/girl2.png"
           buttonText="JOIN WITH US"
-          onButtonClick={handleJoinClick1}
+          whatsappLink="https://chat.whatsapp.com/KH08ER8BvlTHo3DB51plbs"
         />
         <CourseCard
           variant="secondary"
@@ -75,7 +54,7 @@ function Courses() {
           features={courseFeatures}
           imageSrc="/girl2.png"
           buttonText="JOIN WITH US"
-          onButtonClick={handleJoinClick2}
+          whatsappLink="https://chat.whatsapp.com/JiOuZn5mvXQ0g1PLpiLPE7"
         />
         <CourseCard
           variant="primary"
@@ -84,7 +63,7 @@ function Courses() {
           features={courseFeatures3}
           imageSrc="/girl2.png"
           buttonText="JOIN WITH US"
-          onButtonClick={handleJoinClick3}
+          whatsappLink="https://chat.whatsapp.com/GOVVlAx7pVI5MYzhx3Dc07"
         />
         <CourseCard
           variant="secondary"
@@ -93,7 +72,7 @@ function Courses() {
           features={courseFeatures4}
           imageSrc="/girl2.png"
           buttonText="JOIN WITH US"
-          onButtonClick={handleJoinClick4}
+          whatsappLink="https://chat.whatsapp.com/CgTl95Wx8rXELPhUkoExty"
         />
       </div>
     </div>

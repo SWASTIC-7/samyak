@@ -5,7 +5,7 @@ import MobileMenu from './MobileMenu';
 import { scrollToSection } from '../utils/scroll';
 
 function Navbar() {
-  const { user, signInWithGoogle, logout, error } = useAuth();
+  const { user, signInWithGoogle, logout } = useAuth();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleAuth = async () => {
@@ -53,7 +53,6 @@ function Navbar() {
         </div>
 
         <div className='auth-section'>
-          {error && <div className='auth-error'>{error}</div>}
           <div className='signin' onClick={handleAuth}>
             <button>{user ? 'Sign Out' : 'Sign In'}</button>
           </div>
